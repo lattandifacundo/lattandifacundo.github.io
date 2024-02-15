@@ -1,0 +1,1 @@
+function fixViewport(){let t=.01*window.innerHeight;document.documentElement.style.setProperty("--vh",`${t}px`);const e=window.innerWidth-document.body.clientWidth;document.documentElement.style.setProperty("--scrollbarWidth",`${e}px`)}fixViewport();
