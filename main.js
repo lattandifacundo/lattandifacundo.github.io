@@ -1,1 +1,1 @@
-function fixViewport(){let t=.01*window.innerHeight;document.documentElement.style.setProperty("--vh",`${t}px`);const e=window.innerWidth-document.body.clientWidth;document.documentElement.style.setProperty("--scrollbarWidth",`${e}px`)}fixViewport();
+function fixViewport(){let e=.01*window.innerHeight;document.documentElement.style.setProperty("--vh",`${e}px`);let t=window.innerWidth-document.body.clientWidth;document.documentElement.style.setProperty("--scrollbarWidth",`${t}px`)}fixViewport();
